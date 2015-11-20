@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#55bbff"
+    >
+
+    <TextView android:text="@string/portfolio_app"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="@dimen/std_width"
+        android:layout_height="wrap_content"
+        android:text="SPOTIFY STREAMER"
+        android:onClick="onclickSpotStream"
+        android:background="#F08C35"
+        />
+
+    <Button
+        android:layout_width="@dimen/std_width"
+        android:layout_height="wrap_content"
+        android:text="SCORES APP"
+        android:onClick="onclickScoreApp"
+        android:background="#F08C35"
+        />
+
+    <Button
+        android:layout_width="@dimen/std_width"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY APP"
+        android:onClick="onclickLibraryApp"
+        android:background="#F08C35"
+        />
+
+    <Button
+        android:layout_width="@dimen/std_width"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:onClick="onclickBuildItBigger"
+        android:background="#F08C35"
+        />
+
+    <Button
+        android:layout_width="@dimen/std_width"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:onClick="onclickXYZReader"
+        android:background="#F08C35"
+        />
+
+    <Button
+        android:layout_width="@dimen/std_width"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE:MY OWN APP"
+        android:onClick="onclickCapstoneApp"
+        android:background="#FF0000"
+        />
+
+</LinearLayout>
